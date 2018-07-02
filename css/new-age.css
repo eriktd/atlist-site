@@ -417,9 +417,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  color: black;
+  border-color: #fff;
+  background-color: #fff;
 }
 
 .btn {
@@ -434,10 +434,39 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+.email-btn {
+	background: transparent;
+}
+
 .phone-inside {
 	margin: 15px;
+	color: white;
 }
 
 .phone-title {
 	text-align: center;
+}
+
+.intro {
+	
+}
+
+.left-phone {
+	margin: 30px;
+}
+
+.right-phone {
+	margin: 17px;
+	padding-top: 12px;
+}
+
+@media (min-width: 768px) {
+	.atlist-title {
+		font-size: 100px;
+	}
+}
+
+.phone-img {
+	height: auto;
+	width: 300px;
 }
