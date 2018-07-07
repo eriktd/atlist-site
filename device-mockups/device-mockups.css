@@ -770,3 +770,41 @@
 .device-mockup.samsung_tv.landscape > .device > .screen {
     top: 2.148803%; bottom: 12.817127%; left: 1.261956%; right: 1.361956%;
 }
+
+/*BEGIN CUSTOM CSS */
+
+/* Pixel 2 XL*/
+.device-mockup.pixel2_xl,
+.device-mockup.pixel2_xl.portrait {
+	padding-bottom: 201.76%;
+}
+
+.device-mockup.pixel2_xl.landscape {
+	padding-bottom: 49.56%;
+}
+
+.device-mockup.pixel2_xl.white > .device,
+.device-mockup.pixel2_xl.portrait.white > .device {
+	background-image: url("pixel2_xl/pixel-2-xl-portrait.png");
+}
+
+.device-mockup.pixel2_xl > .device > .screen,
+.device-mockup.pixel2_xl.portrait > .device > .screen {
+    top: 6.6%; bottom: 6.1%; left: 4.47%; right: 6.0%;
+	border-radius: 11px;
+}
+
+.device-mockup.pixel2_xl.landscape > .device > .screen {
+    top: 5.97%; bottom: 5.97%; left: 11.38%; right: 11.58%;
+}
+
+.device-mockup.pixel2_xl > .device > .button,
+.device-mockup.pixel2_xl.portrait > .device > .button {
+	display: block;
+    top: 89.9%; bottom: 3.2%; left: 43%; right: 43%;
+}
+
+.device-mockup.pixel2_xl.landscape > .device > .button {
+	display: block;
+	top: 43%; bottom: 43%; left: 89.9%; right: 3.2%;
+}

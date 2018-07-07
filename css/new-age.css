@@ -438,6 +438,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 	background: transparent;
 }
 
+.screen {
+	background: rgb(34,35,37);
+}
+
 .phone-inside {
 	margin: 15px;
 	color: white;
@@ -457,7 +461,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .right-phone {
 	margin: 17px;
-	padding-top: 12px;
 }
 
 @media (min-width: 768px) {
