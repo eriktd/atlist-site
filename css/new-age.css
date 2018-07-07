@@ -438,6 +438,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 	background: transparent;
 }
 
+@font-face {
+    font-family: 'platform'; /*a name to be used later*/
+    src: url("../font/platform-bold-webfont.ttf"); /*URL to font*/
+}
+
 .screen {
 	background: rgb(34,35,37);
 }
@@ -452,7 +457,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .intro {
-	
+	background-color: #52bf90
 }
 
 .left-phone {
@@ -460,16 +465,27 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .right-phone {
-	margin: 17px;
+	margin: 25px;
+	padding-top: 2%;
 }
 
 @media (min-width: 768px) {
 	.atlist-title {
-		font-size: 100px;
+		font-size: 200px;
+		font-family: 'platform';
 	}
 }
 
 .phone-img {
 	height: auto;
-	width: 300px;
+	padding-top: 35%;
+	animation-name: map-pin;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes map-pin {
+    from {width: 30%;}
+    to {width: 45%; padding-top: 20%}
 }
