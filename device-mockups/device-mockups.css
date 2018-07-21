@@ -817,8 +817,8 @@
 
 .device-mockup.iphone_x > .device > .screen,
 .device-mockup.iphone_x.portrait > .device > .screen {
-    top: 6.9%; bottom: 6.1%; left: 7.3%; right: 7%;
-	border-radius: 11px;
+    top: 3.3%; bottom: 3.3%; left: 7.2%; right: 6.5%;  /*top: 6.9%  3.3*/
+	border-radius: 28px;
 }
 
 .device-mockup.iphone_x > .device > .button,

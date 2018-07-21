@@ -477,7 +477,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .main-gif {
-	width: 300px;
+	width: 100%;
 	height: auto;
 }
 
@@ -493,4 +493,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 @keyframes map-pin {
     from {width: 30%;}
     to {width: 45%; padding-top: 20%}
+}
+
+.notch {
+	position: absolute;
+	top: 0;
+	height: auto;
+	width: 55%;
+	left: 23%;
 }
