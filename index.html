@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="device-mockups/device-mockups.css">
@@ -51,9 +52,6 @@
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Signup</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -78,9 +76,6 @@
 					</video>
 					<img src="device-mockups/iphone_x/notch.png" class="notch">
                   </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
                 </div>
               </div>
             </div>
@@ -91,24 +86,25 @@
 	
     <section class="intro bg-primary" id="intro">
       <div class="container text-center">
-			<h1 class="atlist-title"><b>Atlist</b></h1>
+			<h1 class="atlist-title">Atlist</h1>
 			<br>
 			<div class="row">
 				<div class="col-sm-4">
 				
 					<div class="device-container left-phone">
-					  <div class="device-mockup iphone6 portrait black">
+					  <div class="device-mockup iphone_x portrait black">
 						<div class="device">
 						  <div class="screen">
-							<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+							<img src="device-mockups/iphone_x/notch.png" class="notch">
 							<div class="phone-inside">
-								<br>
+								<br><br>
 								<h2 class="phone-title">Problem</h2>
-								Millenials suck and ruin everything. They don't do stuff.
+								<ul class="phone-list">
+									<li>People don’t know where to go / what is around them.</li>
+									<li>Unique experiences are difficult to find for both travelers and residents</li>
+									<li>There is no convenient app to pin your favorite hidden gems</li>
+								</ul>
 							</div>
-						  </div>
-						  <div class="button">
-							<!-- You can hook the "home button" to some JavaScript events or just remove it -->
 						  </div>
 						</div>
 					  </div>
@@ -122,12 +118,8 @@
 					  <div class="device-mockup iphone_x portrait black">
 						<div class="device">
 						  <div class="screen">
-							<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-							<img src="img/pin.png" class="phone-img">
+							<img src="img/google_map.png" class="phone-img">
 							<img src="device-mockups/iphone_x/notch.png" class="notch">
-						  </div>
-						  <div class="button">
-							<!-- You can hook the "home button" to some JavaScript events or just remove it -->
 						  </div>
 						</div>
 					  </div>
@@ -137,18 +129,21 @@
 				<div class="col-sm-4">
 				
 					<div class="device-container right-phone">
-					  <div class="device-mockup pixel2_xl portrait white">
+					  <div class="device-mockup iphone_x portrait black">
 						<div class="device">
 						  <div class="screen">
-							<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
 							<div class="phone-inside">
+								<img src="device-mockups/iphone_x/notch.png" class="notch">
 								<br><br>
 								<h2 class="phone-title">Solution</h2>
-								Give them a phone app that lets them pretend to be doing stuff, while they're actually on their phone.
+								An application for users to both pin experiences at destinations as well as find them.
+								<br><br>
+								<ul class="phone-list">
+									<li>Pin your adventures</li>
+									<li>Explore unique destinations</li>
+									<li>Share experiences with the world</li>
+								</ul>
 							</div>
-						  </div>
-						  <div class="button">
-							<!-- You can hook the "home button" to some JavaScript events or just remove it -->
 						  </div>
 						</div>
 					  </div>
@@ -162,26 +157,25 @@
 	<section class="explain" id="explain">
       <div class="container">
         <div class="row">
+			<div class="col-sm-4"><h2 class="explain-title text-right">MY</h2></div>
+			<div class="col-sm-4"><h2 class="explain-title text-center">FRIENDS</h2></div>
+			<div class="col-sm-4"><h2 class="explain-title text-left">WORLD</h2></div>
+		</div>
+		<div class="row">
 			
 			<div class="col-sm-4">
-				<h2 class="explain-title text-center">My</h2>
-				<br>
 				<p>
 				Pin places you've been, are planning on going, and wish to go to in the future.
 				</p>
 			</div>
 			
 			<div class="col-sm-4">
-				<h2 class="explain-title text-center">Friends</h2>
-				<br>
 				<p>
 				Explore your friend’s favorite hidden gems and learn about their experiences.
 				</p>
 			</div>
 			
 			<div class="col-sm-4">
-				<h2 class="explain-title text-center">World</h2>
-				<br>
 				<p>
 				Discover the world’s most unique locations. You can find something new no matter where you are. 
 				</p>
@@ -195,13 +189,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Stay in the loop.</h2>
-            <p>Enter your email address to stay informed with updates.</p>
-            <div class="email">
-			  <input type="email" class="form-control" placeholder="Enter email">
-			  <br>
-			  <button type="submit" class="btn btn-outline btn-xl email-btn">Submit</button>
-            </div>
+            <h2 class="section-heading">Stay tuned for updates.</h2>
+            <p>Signup coming soon for email notifications.</p>
           </div>
         </div>
       </div>
@@ -210,17 +199,6 @@
     <footer>
       <div class="container">
         <p>&copy; Atlist 2018. All Rights Reserved.</p>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">FAQ</a>
-          </li>
-        </ul>
       </div>
     </footer>
 

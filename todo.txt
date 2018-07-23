@@ -1,0 +1,56 @@
+-text in top section/middle phone image?
+-MOBILE
+
+-started laying changes for resizing/mobile to work correctly
+-reworked "my friends world" text to work together and resize
+-added new favicon
+-added text to problem/solution phones
+-changed a lot of colors and backgrounds
+-lightened phone screen background colors
+-added gif to iphone x
+-changed all phones to iphone x
+-changed title font away from licensed platform one. not quite happy with it.
+-fixed iphone x to have edge to edge display of content, with notch over the top of it all
+-added description text on features section
+-removed unwanted sections, links in navbar
+-removed email signup for now, cannot be added until backend support is there
+-removed links in footer to privacy policy, faq, and terms. perhaps an faq is desired?
+
+Misc (for future reference):
+
+old footer:
+
+    <footer>
+      <div class="container">
+        <p>&copy; Atlist 2018. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+	
+old email section:
+
+    <section class="download bg-primary text-center" id="signup">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Stay in the loop.</h2>
+            <p>Enter your email address to stay informed with updates.</p>
+            <div class="email">
+			  <input type="email" class="form-control" placeholder="Enter email">
+			  <br>
+			  <button type="submit" class="btn btn-outline btn-xl email-btn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
