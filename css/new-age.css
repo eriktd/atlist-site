@@ -165,6 +165,9 @@ header.masthead .header-content {
 header.masthead .header-content h1 {
   font-size: 30px;
 }
+  header.masthead .header-content h2 {
+    font-size: 25px;
+  }
 
 header.masthead .device-container {
   max-width: 325px;
@@ -188,7 +191,10 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 45px;
+  }
+  header.masthead .header-content h2 {
+    font-size: 30px;
   }
   header.masthead .device-container {
     max-width: 325px;
@@ -437,8 +443,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 	background: transparent;
 }
 
-.screen {
-	background: linear-gradient(#fff, #c6cec4);/*ededed*/
+.screen.light{
+	background: linear-gradient(#ededed, #b7aeae);/*ededed*/
+}
+
+.screen.dark{
+	background: black;
 }
 
 .phone-inside {
@@ -453,18 +463,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .phone-title {
 	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
 }
 
 .intro {
 	padding-top: 35px;
 }
 
-.left-phone {
-	margin: 25px;
-	padding-top: 2%;
-}
-
-.right-phone {
+.side-phone {
 	margin: 25px;
 	padding-top: 2%;
 }
@@ -486,22 +493,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 	height: 100%;
 }
 
-/*
-.phone-img {
-	height: auto;
-	padding-top: 35%;
-	animation-name: map-pin;
-	animation-direction: alternate;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-}
-
-@keyframes map-pin {
-    from {width: 30%;}
-    to {width: 45%; padding-top: 20%}
-}
-*/
-
 .notch {
 	position: absolute;
 	top: 0;
@@ -512,6 +503,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .explain-title {
 	font-size: 55px;
+}
+
+.explain-art {
+	width: auto;
+	height: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 8%;
+	margin-top: 4%;
 }
 
 @media (min-width: 992px) {
